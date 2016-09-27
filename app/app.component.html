@@ -12,8 +12,4 @@ Ng Model:<br />
 <button (click)="changeColor()">Change Color</button>
 <hr />
 
-<ul>
-    <li *ngFor="let c of customers">
-        <app-customer [customer]="c"></app-customer>
-    </li>
-</ul>
+<app-customers></app-customers>

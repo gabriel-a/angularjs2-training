@@ -10,12 +10,7 @@ export class AppComponent {
     title = 'Customer App';
     name = 'Gabriel';
     color = 'green'; 
-    customers = [
-        {id:1, name:'Gabriel'},
-        {id:2, name:'Sally'},
-        {id:3, name:'Ton'},
-        {id:4, name:'Dadepo'}
-    ];
+    
     changeColor() { 
         this.color = this.color === 'green' ? 'red' : 'green';
     }
